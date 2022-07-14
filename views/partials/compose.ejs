@@ -1,0 +1,17 @@
+<%- include header %>
+
+
+
+<form action="/compose" method="POST">
+    <center>
+    <h1>Compose</h1>
+    <label>Title</label><br>
+    <input type="text" name="newTitle" ><br>
+    <label>Post</label><br>
+    <textarea name="newContent" cols="40" rows="5"></textarea><br>
+    <button type="submit" name="button">Publish</button>
+</center>
+
+</form>
+
+<%- include footer %>
